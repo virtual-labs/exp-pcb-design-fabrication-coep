@@ -1,13 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <title>Wood Cutting Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="simulation/css/bootstrap.min.css">
+   <script src="simulation/js/Jquery.3.4.1.js"></script>
+  <script src="simulation/js/bootstrap.min.js"></script>
+  <script src="simulation/js/popper.min.js"></script>
+  
+  <link rel="stylesheet" href="simulation/css/alertify.min.css">
+ <script src="simulation/js/alertify.min.js"></script>
+  <link rel="stylesheet" href="simulation/css/font-awesome.css">
+  
+  <script type="text/javascript" src="simulation/js/raphael.js"></script>
+<!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" ></script> -->
+   <link rel="stylesheet" href="simulation/css/WC.css">
+<style>
+#wrapper{
+position:relative;
+}
+#mcircle{
+position:absolute;
+top:-4px;
+left:-2px;
+}
+</style>
 </head>
 <body>
-		<!-- Your code goes here-->
+<!-- <div id="wrapper"> -->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+
+<!-- <div id="mcircle"> -->
+<!-- hii -->
+<!-- </div> -->
+
+<!-- <svg id="circle" width="600" height="500"> -->
+<!-- <!-- <path stroke="red" fill="none" d="M 351 183 A 50 50 0 1 1 212 350 A 50 50 0 1 1 450 181 Z"></path> --> 
+<!-- </svg> -->
+
+<!-- </div> -->
+
+<div class=".container-fluid">
+	<div class="row" >
+		<div class="col-sm-12 col-md-12 col-xl-12">
+			<div id="mainDiv"></div>
+		</div>
+	</div>
+</div>
+
+<script src="simulation/3D_Configration/PCBmaching.js" ></script>
+<script src="simulation/3D_Configration/MachineDiagram_PCB.js" ></script>
+
+<script>
+
+
+Height = $(window).height();
+Width = $(window).width();
+console.log(Height);
+
+MachingObj.selectMaterial();
+if(Width > 768)
+	{
+	$("#ConfigSection, #WoodCuttingSection, #WCuttingConfgration ").css("height", "900px");
+	}
+else{
+	$("#ConfigSection, #WCuttingConfgration ").css("height", "900px");
+	$("#WoodCuttingSection").css("height", "900px");
+}
+// CuttingObject(700,500);
+
+</script>
 </body>
 </html>

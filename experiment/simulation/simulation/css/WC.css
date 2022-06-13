@@ -1,0 +1,275 @@
+#ConfigSection, #WoodCuttingSection, #WCuttingConfgration {
+	/* 	border:1px solid #666; */
+/* 	height: 700px; */
+	background: #f4f5f5;
+	/* 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, */
+	/* 		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+	box-shadow: rgb(50 50 93/ 25%) 0px 50px 100px -20px, rgb(0 0 0/ 30%) 0px
+		30px 60px -30px, rgb(10 37 64/ 35%) 0px -2px 6px 0px inset;
+		overflow-x: scroll;
+		padding-top:60px;
+}
+.Expanded{
+transition-timing-function: linear;
+transition-timing-function: cubic-bezier(0, 0, 1, 1);
+  }
+.ErrorMsg{
+	font-size: 15px;
+    color: red;
+      padding-left: 17px;
+    font-weight: bold;
+}
+#mainDiv {
+	padding: 10px;
+}
+
+.Rotation{
+	margin:5px;
+	text-align: center;
+    border-radius: 10px;
+    background: #d9e0e5;
+    padding: 10px 5px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+	
+}
+
+h1 {
+	border-radius: 0 0 30px 0;
+	box-shadow: rgb(0 0 0/ 35%) 0px 5px 15px;
+	margin-bottom: 21px;
+	position: absolute;
+	top: 0;
+	padding: 10px;
+	left: 0;
+	color:#fff;
+	font-size: 24px;
+/* 	background: rgb(223, 230, 231); */
+/* 	background: linear-gradient(90deg, rgba(223, 230, 231, 1) 0%, */
+/* 		rgba(192, 202, 222, 1) 51%, rgba(223, 230, 231, 1) 100%); */
+background: #273545;
+}
+
+h2 {
+	border-radius: 10px;
+	box-shadow: rgb(0 0 0/ 35%) 0px 5px 15px;
+	margin: 0 0 21px 0;
+	/* position: absolute; */
+	/* top: 0; */
+	padding: 10px;
+	/* left: 0; */
+	font-size: 18px;
+	background: rgb(223, 230, 231);
+	background: linear-gradient(90deg, rgba(223, 230, 231, 1) 0%,
+		rgba(192, 202, 222, 1) 51%, rgba(223, 230, 231, 1) 100%);
+}
+
+h3 {
+	background: rgb(223, 230, 231);
+	font-size: 18px;
+	color: #273545;
+	padding: 10px;
+	margin:5px 0;
+}
+.orignBk{}
+
+#ShapeConfigModel {
+	margin: 20px 0;
+	box-shadow: rgb(50 50 93/ 25%) 0px 50px 100px -20px, rgb(0 0 0/ 30%) 0px
+		30px 60px -30px, rgb(10 37 64/ 35%) 0px -2px 6px 0px inset;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.InputSection {
+	background: #f7fbfb;
+	margin-top: 70px;
+	/* 	padding: 22px; */
+	border-radius: 10px;
+}
+
+p {
+	width: 100%;
+	text-align: center;
+/* 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, */
+/* 		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
+
+section {
+	padding: 20px;
+	margin:10px 0;
+	width: 100%;
+/* 	border: 1px solid #000; */
+	  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+/* 	background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, */
+/* 		rgba(0, 0, 0, 0) calc(50% - 0.8px), rgba(0, 0, 0, 1) 50%, */
+/* 		rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%), */
+/* 		linear-gradient(to top right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) */
+/* 		calc(50% - 0.8px), rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) */
+/* 		calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%); */
+/* 	border: 1px solid #000; */
+}
+
+.top {
+	 position: absolute;
+    left: 45%;
+    top: 60px;
+}
+
+.topleft {
+	top: 98px;
+    position: absolute;
+    left: 19%;
+}
+
+.topright {
+	top: 97px;
+    position: absolute;
+    left: 72%;
+}
+
+.bottom {
+	top: 199px;
+    position: absolute;
+    left: 45%;
+}
+
+.bottomleft {
+	top: 159px;
+    position: absolute;
+    left: 20%;
+}
+
+.bottomright {
+	top: 157px;
+    position: absolute;
+    left: 72%;
+}
+
+#WCLevelOne, #WCLevelTwo, #WCSquareDraw, #WCEllipseDraw, #WCPolygonTwo {
+	margin-top: 20px;
+}
+#WCReload, #WCAmimationBtn {
+	margin: 5px;
+}
+#WC_Origin_X, #WC_Origin_Y{
+	padding-left:10px;
+}
+.circle {
+	height: 50px;
+	width: 50px;
+	background-color: #555;
+	border-radius: 50%;
+}
+
+.SymbolImg {
+	    height: 60px;
+    width: 60px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+    padding: 5px;
+    margin: 5px;
+        cursor: pointer;
+}
+
+#WoodCuttingSection i {
+	position: absolute;
+	top: 8px;
+	background: #273545;
+	right: 12px;
+	padding: 8px;
+	z-index: 1111;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 29px;
+}
+
+#WCDepth {
+	margin-top: 95px;
+}
+
+#WCDepth img {
+	width: 33%;
+	box-shadow: rgb(0 0 0/ 16%) 0px 3px 6px, rgb(0 0 0/ 23%) 0px 3px 6px;
+	margin: 7px auto;
+	border-radius: 12px;
+}
+.modal-dialog {
+    max-width: 70%;
+    margin: 1.75rem auto;
+}
+.modal-header {
+    background: var(--cyan);
+    color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+.ToolSection{
+	width: 96%;
+/*     text-align: center; */
+    padding: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    margin: 7px 2%;
+    border-radius: 10px;
+}
+.ToolSection h3{
+	width: 100%;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #c7bfbf;
+}
+.leftAbsulate{
+	    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.BackSymbol {
+	display:none;
+	position: absolute;
+    font-size: 32px;
+    top: 9px;
+    color: #fff;
+    right: 9px;
+    border-radius: 10px;
+    padding: 0px 7px;
+    background: #273545;
+}
+#WCDepth a{text-align: center;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: bold;}
+ #getMachning, #SelectModelpropBtn {
+ margin:5px 0;
+ }
+ 
+ 
+ .orgimg{position: absolute;
+    left: 19%;}
+/* #WC_canvas{background-image: url("../simulation/images/MC_BG.png");} */
+@media screen and (min-width: 1200px) and (max-width: 1420px) {
+	h1 {
+	border-radius: 0 0 30px 0;
+	box-shadow: rgb(0 0 0/ 35%) 0px 5px 15px;
+	margin-bottom: 21px;
+	position: absolute;
+	top: 0;
+	padding: 10px;
+	left: 0;
+	color:#fff;
+	font-size: 21px;
+
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+/* 	#ConfigSection, #WoodCuttingSection, #WCuttingConfgration { */
+/* 	height:600px; */
+/* 	} */
+}
