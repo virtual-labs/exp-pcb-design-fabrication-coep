@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "PCB is Acronym of ?",
+      "answers": {
+        "a": "Printed Circuit Board",
+        "b": "Print Circuit Breaker",
+        "c": "Personal Circuit Board",
+        "d": "Poly chlorinated biphenyl"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Material used in PCB ?",
+      "answers": {
+        "a": "Phynolic Cotton Paper",
+        "b": "Woven Glass & Eproxy",
+        "c": "Matte Glass & Polyester",
+        "d": "All of the above"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Board Coated with color ?",
+      "answers": {
+        "a": "Green,Blue and Red",
+        "b": "White",
+        "c": "Gray",
+        "d": "All of the above"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Chemical etching can do with ?",
+      "answers": {
+        "a": "Ferric Cloride",
+        "b": "Ammonium persulfate",
+        "c": "Hydrochloric Acid",
+        "d": "All of the Above"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Inventor of PCB ?",
+      "answers": {
+        "a": "Neil Eisler",
+        "b": "Paul Eisler",
+        "c": "Peter Eisler",
+        "d": "Thomas Edison"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'COEP',
+        'phase': 'Testing',
+        'expName': 'PCB DESIGN AND FABRICATION',
+        'expShortName': 'pcb-design-fabrication'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="pcb-design-fabrication">
+    	<meta name="developer-institute" content="COEP">
+    	<meta name="learning-unit" content="PCB DESIGN AND FABRICATION">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="pcb-design-and-fabrication">PCB Design and Fabrication</h2>
+          
+            </div>
+              <h3 id="theory">Theory</h3>
+          <p><strong>What is PCB ?</strong></p>
+          <p>A PCB is a printed circuit board, also known as a printed wiring board. It is used in electronics to build electronic devices. A PCB serves two purposes in the construction of an electronic device; it is a place to mount the components and it provides the means of electrical connection between the components.</p>
+          <p><strong>History</strong></p>
+          <p>The inventor of the printed circuit was the Austrian engineer Paul Eisler (1907-1995) who, while working in England, made one circa 1936 as part of a radio set.</p>
+          <p><strong>Material:</strong></p>
+          <p>Conducting layers are typically made of thin copper foil. Insulating layers dielectric are typically laminated together with epoxy resin prepreg. The board is typically coated with a solder mask that is green in color. Other colors that are normally available are blue and red. There are quite a few different dielectrics that can be chosen to provide different insulating values depending on the requirements of the circuit. Some of these dielectrics are polytetrafluoroethylene (Teflon), FR-4, FR-1, CEM-1 or CEM-3. Well known prepreg materials used in the PCB industry are FR-2 (Phenolic cotton paper), FR-3 (Cotton paper and epoxy), FR-4 (Woven glass and epoxy), FR-5 (Woven glass and epoxy), FR-6 (Matte glass and polyester), G-10(Woven glass and epoxy), CEM-1 (Cotton paper and epoxy), CEM-2 (Cotton paper and epoxy), CEM-3 (Woven glass and epoxy),CEM-4 (Woven glass and epoxy), CEM-5 (Woven glass and polyester). Thermal expansion is an important consideration especially with BGA and naked die technologies, and glass fiber offers the best dimensional stability.</p>
+          <p><strong>Patterning (etching)</strong></p>
+          <p>The vast majority of printed circuit boards are made by bonding a layer of copper over the entire substrate, sometimes on both sides, (creating a "blank PCB") then removing unwanted copper after applying a temporary mask (e.g. by etching), leaving only the desired copper traces. A few PCBs are made by adding traces to the bare substrate (or a substrate with a very thin layer of copper) usually by a complex process of multiple electroplating steps. The PCB manufacturing method primarily depends on whether it is for production volume or sample/prototype quantities. PCB milling uses a two or three- axis mechanical milling system to mill away the copper foil from the substrate. A PCB milling machine (referred to as a 'PCB Prototyper') operates in a similar way to a plotter, receiving commands from the host software that control the position of the milling head in the x, y, and (if relevant) z axis. Data to drive the Prototyper is extracted from files generated in PCB design software and stored in HPGL or Gerber file format.</p>
+          <p><strong>Etching</strong></p>
+          <p>Chemical etching is done with ferric chloride, ammonium persulfate, or sometimes hydrochloric acid.For PTH (plated-through holes), additional steps of electroless deposition are done after the holes are drilled, then copper is electroplated to build up the thickness, the boards are screened, and plated with tin/lead. The tin/lead becomes the resist leaving the bare copper to be etched away.</p>
+          <p><strong>Lamination</strong></p>
+          <p>Some PCBs have trace layers inside the PCB and are called multi-layer PCBs. These are formed by bonding together separately etched thin boards.</p>
+          <p><strong>Drilling</strong></p>
+          <p>Holes through a PCB are typically drilled with tiny drill bits made of solid tungsten carbide. The drilling is performed by automated drilling machines with placement controlled by a drill tape or drill file. These computer-generated files are also called numerically controlled drill (NCD) files or "Excellon files". The drill file describes the location and size of each drilled hole. These holes are often filled with annular rings (hollow rivets) to create vias. Vias allow the electrical and thermal connection of conductors on opposite sides of the PCB.Most common laminate is epoxy filled fiberglass. Drill bit wear is partly due to embedded glass, which is harder than steel. High drill speed necessary for cost effective drilling of hundreds of holes per board causes very high temperatures at the drill bit tip, and high temperatures (400-700 degrees) soften steel and decompose (oxidize) laminate filler. Copper is softer than epoxy and interior conductors may suffer.</p>
+          <p><strong>Damage during drilling</strong></p>
+          <p>When very small vias are required, drilling with mechanical bits is costly because of high rates of wear and breakage. In this case, the vias may be evaporated by lasers. Laser-drilled vias typically have an inferior surface finish inside the hole. These holes are called micro vias.It is also possible with controlled-depth drilling, laser drilling, or by pre-drilling the individual sheets of the PCB before lamination, to produce holes that connect only some of the copper layers, rather than passing through the entire board. These holes are called blind vias when they connect an internal copper layer to an outer layer, or buried vias when they connect two or more internal copper layers and no outer layers.The walls of the holes, for boards with 2 or more layers, are made conductive then plated with copper to form plated-through holes that electrically connect the conducting layers of the PCB. For multilayer boards, those with 4 layers or more, drilling typically produces a smear of the high temperature decomposition products of bonding agent in the laminate system. Before the holes can be plated through, this smear must be removed by a chemical de-smear process, or by plasma-etch. Removing(etching back) the smear also reveals the interior conductors as well.</p>
+          <p><strong>Exposed conductor plating and coating</strong></p>
+          <p>PCBs are plated with solder, tin, or gold over nickel as a resist for etching away the unneeded underlying copper.After PCBs are etched and then rinsed with water, the soldermask is applied, and then any exposed copper is coated with solder, nickel/gold, or some other anti-corrosion coating.Matte solder is usually fused to provide a better bonding surface or stripped to bare copper. Treatments, such as benzimidazolethiol, prevent surface oxidation of bare copper. The places to which components will be mounted are typically plated, because untreated bare copper oxidizes quickly, and therefore is not readily solderable. Traditionally, any exposed copper was coated with solder by Hot air solder levelling (HASL). This solder was a tin-lead alloy, however new solder compounds are now used to achieve compliance with the RoHS directive in the EU and US, which restricts the use of lead. One of these lead-free compounds is SN100CL, made up of 99.3% tin, 0.7% copper, 0.05% nickel, and a nominal of 60ppm germanium.It is important to use solder compatible with both the PCB and the parts used. An example is Ball Grid Array (BGA) using tin-lead solder balls for connections losing their balls on bare copper traces or using lead-free solder paste.Other platings used are OSP (organic surface protectant), immersion silver (IAg), immersion tin, electroless nickel with immersion gold coating (ENIG), and direct gold plating (over nickel). Edge connectors, placed along one edge of some boards, are often nickel plated then gold plated. Another coating consideration is rapid diffusion of coating metal into Tin solder. Tin forms intermetallics such as Cu5Sn6 and Ag3Cu that dissolve into the Tin liquidus or solidus(@50C), stripping surface coating and/or leaving voids.Electrochemical migration (ECM) is the growth of conductive metal filaments on or in a printed circuit board (PCB) under the influence of a DC voltage bias. Silver, zinc, and aluminum are known to grow whiskers under the influence of an electric field. Silver also grows conducting surface paths in the presence of halide and other ions, making it a poor choice for electronics use. Tin will grow "whiskers" due to tension in the plated surface. Tin-Lead or Solder plating also grows whiskers, only reduced by the percentage Tin replaced. Reflow to melt solder or tin plate to relieve surface stress lowers whisker incidence. Another coating issue is tin pest, the transformation of tin to a powdery allotrope at low temperature.</p>
+          <p><strong>Solder resist</strong></p>
+          <p>Areas that should not be soldered may be covered with a polymer solder resist (solder mask) coating. The solder resist prevents solder from bridging between conductors and creating short circuits. Solder resist also provides some protection from the environment. Solder resist is typically 20-30 micrometres thick</p>
+          <p><strong>Printed circuit assembly</strong></p>
+          <p>After the printed circuit board (PCB) is completed, electronic components must be attached to form a functional printed circuit assembly,or PCA (sometimes called a "printed circuit board assembly" PCBA). In through-hole construction, component leads are inserted in holes. In surface-mount construction, the components are placed on pads or lands on the outer surfaces of the PCB. In both kinds of construction, component leads are electrically and mechanically fixed to the board with a molten metal solder.There are a variety of soldering techniques used to attach components to a PCB. High volume production is usually done with machine placement and bulk wave soldering or reflow ovens, but skilled technicians are able to solder very tiny parts (for instance 0201 packages which are 0.02 in. by 0.01 in.) by hand under a microscope, using tweezers and a fine tip soldering iron for small volume prototypes. Some parts are impossible to solder by hand, such as ball grid array (BGA) packages.Often, through-hole and surface-mount construction must be combined in a single assembly because some required components are available only in surface-mount packages, while others are available only in through-hole packages. Another reason to use both methods is that through-hole mounting can provide needed strength for components likely to endure physical stress, while components that are expected to go untouched will take up less space using surface-mount techniques.After the board has been populated it may be tested in a variety of ways:While the power is off, visual inspection, automated optical inspection. JEDEC guidelines for PCB component placement, soldering, and inspection are commonly used to maintain quality control in this stage of PCB manufacturing. While the power is off, analog signature analysis, power-off testing.While the power is on, in-circuit test, where physical measurements (i.e. voltage, frequency) can be done.While the power is on, functional test, just checking if the PCB does what it had been designed for.To facilitate these tests, PCBs may be designed with extra pads to make temporary connections.Sometimes these pads must be isolated with resistors. The in-circuit test may also exercise boundary scan test features of some components. In-circuit test systems may also be used to program nonvolatile memory components on the board.In boundary scan testing, test circuits integrated into various ICs on the board form temporary connections between the PCB traces to test that the ICs are mounted correctly. Boundary scan testing requires that all the ICs to be tested use a standard test configuration procedure, the most common one being the Joint Test Action Group (JTAG) standard.When boards fail the test, technicians may desolder and replace failed components, a task known as rework.</p>
+          <p><strong>Surface Mount Technology</strong></p>
+          <center><img src="images/img1.jpg" title=""></center>
+          
+          <p><strong>Surface mount components, including resistors ,an integrated circuit &amp; Transistor</strong></p>
+          <p>Surface-mount technology emerged in the 1960s, gained momentum in the early 1980s and became widely used by the mid 1990s.Components were mechanically redesigned to have small metal tabs or end caps that could be soldered directly on to the PCB surface.Components became much smaller and component placement on both sides of the board became more common than with through-hole mounting, allowing much higher circuit densities. Surface mounting lends itself well to a high degree of automation,reducing labour costs and greatly increasing production and quality rates. Carrier Tapes provide a stable and protective environment for Surface mount devices (SMDs) which can be one-quarter to one-tenth of the size and weight, and passive components can be one-half to one-quarter of the cost of corresponding through-hole parts. However, integrated circuits are often priced the same regardless of the package type, because the chip itself is the most expensive part. As of 2006, some wire-ended components, such as small-signal switch diodes are actually significantly cheaper than corresponding SMD versions.</p>
+          <p><strong>Different types of PCB:</strong></p>
+          <p><strong>1)Breadboard</strong>
+          This is a way of making a temporary circuit, for testing purposes or to try out an idea. No soldering is required and all the components can be re-used afterwards. It is easy to change connections and replace components.</p>
+          <center><img src="images/img2.jpg" title=""></center>
+          
+          <p><strong>2)Stripboard</strong></p>
+          <p><strong>Permanent, soldered</strong>
+          Stripboard has parallel strips of copper track on one side. The strips are 0.1" (2.54mm) apart and there are holes every 0.1" (2.54mm). It can be cut with a junior hacksaw, or simply snap it along the lines of holes by putting it over the edge of a bench or table and pushing hard.</p>
+          <center><img src="images/img3.jpg" title=""></center>
+          
+          <p><strong>3)Printed Circuit Board</strong></p>
+          <p><strong>Permanent, soldered</strong>
+          Printed circuit boards have copper tracks connecting the holes where the components are placed. They are designed specially for each circuit and make construction very easy. However, producing the PCB requires special equipment so this method is not recommended if you are a beginner unless the PCB is provided for you.</p>
+          <center><img src="images/img4.jpg" title=""></center>
+          
+          <p><strong>SMD : (Surface mount Components):</strong></p>
+          <p>Surface mount technology (SMT) is a method for constructing electronic circuits in which the components (SMC, or Surface Mounted Components) are mounted directly onto the surface of printed circuit board (PCBs). Electronic devices so made are called surface mount devices or SMDs. In the industry it has largely replaced the throgh hole technology construction method of fitting components with wire leads into holes in the circuit board.</p>
+          <center><img src="images/img5.jpg" title=""></center>
+          
+          <p><a href="https://youtu.be/cSVvbiOP9E4">Reference Link Here - https://youtu.be/cSVvbiOP9E4</a></p>
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>

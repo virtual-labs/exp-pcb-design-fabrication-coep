@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "To add component in schematic which tool is used ?",
+      "answers": {
+        "a": "Cut Tool",
+        "b": "Net Tool",
+        "c": "Add Tool",
+        "d": "Change Tool"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To add pathway for component in schematic, the tool is used ?",
+      "answers": {
+        "a": "Wire Tool",
+        "b": "Net Tool",
+        "c": "Erc Tool",
+        "d": "Bus Tool"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Export image format of Schematic in Eagle ?",
+      "answers": {
+        "a": ".png format",
+        "b": ".bmp format",
+        "c": ".rml format",
+        "d": ".brd format"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "High resolution for mini milling machine ?",
+      "answers": {
+        "a": "200 dpi",
+        "b": "500 dpi",
+        "c": "1000 dpi",
+        "d": "2400 dpi"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which is the correct option to make a board ?",
+      "answers": {
+        "a": "File --> Export",
+        "b": "File --> Camm Processor",
+        "c": "File --> Run",
+        "d": "File --> Switch to Board"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
