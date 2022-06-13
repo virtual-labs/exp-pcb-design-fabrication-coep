@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "PCB is Acronym of ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Printed Circuit Board",
+        "b": "Print Circuit Breaker",
+        "c": "Personal Circuit Board",
+        "d": "Poly chlorinated biphenyl"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Material used in PCB ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Phynolic Cotton Paper",
+        "b": "Woven Glass & Eproxy",
+        "c": "Matte Glass & Polyester",
+        "d": "All of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Board Coated with color ?",
+      "answers": {
+        "a": "Green,Blue and Red",
+        "b": "White",
+        "c": "Gray",
+        "d": "All of the above"
       },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Chemical etching can do with ?",
+      "answers": {
+        "a": "Ferric Cloride",
+        "b": "Ammonium persulfate",
+        "c": "Hydrochloric Acid",
+        "d": "All of the Above"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Inventor of PCB ?",
+      "answers": {
+        "a": "Neil Eisler",
+        "b": "Paul Eisler",
+        "c": "Peter Eisler",
+        "d": "Thomas Edison"
+      },
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
